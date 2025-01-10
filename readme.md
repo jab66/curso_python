@@ -32,3 +32,7 @@ Instalar la extendión **autopep8 (Microsoft)**
 
   Para que cada vez que se guarde se haga el formato del codigo automaticamente<br>
     *configuration - settings - buscar:formatOnSave - marcar Format On Save*
+
+## Para modificar el nombre de una variable en VSC:
+- ctrl + shift + P
+- Rename Symbol
