@@ -1,5 +1,5 @@
 # las tuplas no se pueden modificar
-# se pueden usar todos los metodos de una lista, a exepxion de aquellas que la pueden modiificar.
+# se pueden usar todos los metodos de una lista, a exepcion de aquellas que la pueden modiificar.
 
 numeros = (1, 2, 3)
 print(numeros)

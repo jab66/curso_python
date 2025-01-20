@@ -64,37 +64,15 @@ pip install pipenv<br>
 pipenv graph<br><br>
 ![Imagen de ejemplo](imagenes/dependencias.png)
 
-## Publicacion de paquetes
-
-- pypi.org
-- register
-- instalacion de
-  - setuptools wheel twine
-- desde el explorador: choosealicense.com seleccionar licencia free ( GNU GPLv3 )
-- crear el archivo LICENSE
-- crear el archivo README.md
-- crear el archivo setup.py
-- Pasos para publicar el paquete:
-  - sdist = source distribution
-  - bdist = build distribution
-  - python setup.py sdist bdist_wheel
-  - se crean los empaquetados build y dist
-  - en dist ha creado un archivo con extension tar.gz
-- Pasos para subir el paquete:
-  - twine upload dist/*
-  - proveer el token correspondiente
-- Instalar el paquete
-  - pip install calculin
   
-<br>Para el test del paquete subido a Pypi, en el proyecto Curso_Python_Udemy
-se encuentra el paquete pypi-test<br>
-IMPORTANTE: cuando se hace una nueva version del paquete, elimnar los directorios:
-- build
-- [nombre_paquete].egg-info
-- dist
-
 # Variables de entorno
 - `pip install python-dotenv`
 <br><br>
 Si se declara una variable de entorno en el archivo .env y existe en Windows, tomará la de Windows.
 <br>
+
+
+## Selenium (pruebas automatizadas)
+- bajar el driver del explorador que se va a usar 
+ir a la pagina de PyPi y buscar Selenium, ingresar a la version oficial y ahí podremos bajar el driver del navegador que se vayamos a usar.
+
